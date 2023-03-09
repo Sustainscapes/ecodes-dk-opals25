@@ -143,8 +143,8 @@ print('=> Importing ODM')
 print(points.odm_import_single_tile(tile_id))
 
 ## Validate CRS of odm files
-#print('=> Validate CRS of ODMs')
-#print(points.odm_validate_crs(tile_id))
+print('=> Validate CRS of ODMs')
+print(points.odm_validate_crs(tile_id))
 
 ## Export footprint
 #print('=> Generating footprints from ODM')
@@ -155,20 +155,20 @@ print('=> Normalize Height')
 print(points.odm_add_normalized_z(tile_id))
 
 ## Export mean normalised height for 10 m x 10 m cell
-print('=> Export Normalize Height')
-print(points.odm_export_normalized_z(tile_id))
+#print('=> Export Normalize Height')
+#print(points.odm_export_normalized_z(tile_id))
 
 ## Export canopy height
-print('=> Export Canopy Height')
-print(points.odm_export_canopy_height(tile_id))
+#print('=> Export Canopy Height')
+#print(points.odm_export_canopy_height(tile_id))
 
 ## Export point counts for pre-defined intervals and classess
-print('=> Export Point Counts')
-print(points.odm_export_point_counts(tile_id))
+#print('=> Export Point Counts')
+#print(points.odm_export_point_counts(tile_id))
 
 ## Export proportions based on point counts
-print('=> Export Proportions')
-print(points.odm_export_proportions(tile_id))
+#print('=> Export Proportions')
+#print(points.odm_export_proportions(tile_id))
 
 ## Export point source information
 #print('=> Export Point Source Information')
